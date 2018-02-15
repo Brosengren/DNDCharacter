@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<meta charset="utf-8">
+
+<title>My Character</title>
+
+<body>
+
+	<article>
+
+		<header>
+
+			<h1>Calculate Armor</h1>
+
+			<p>
+			
+			<a href="data/DnD_5e_Players_Handbook.pdf">Players Maunaul </a>
+			<br />
+			
+			</p>
+			
+		</header>
+
+		<form onsubmit="return false" oninput="	totalAC.value = (Math.floor((dex.value - 10) / 2) + +armour.value + +shield.value);">
+
+			Dex<input name="dex" id="dex" type="number">
+
+			<br />
+
+			AC from Armour<input name="armour" id="armour" type="number">
+
+			<br />
+
+			AC from Shield<input name="shield" id="shield" type="number">
+
+			<br />
+
+			Total AC <output name="totalAC" id="totalAC" for="dex armour shield"></output>
+
+			<br />
+			
+			
+
+
+		</form>
+
+		<footer>
+
+			<h1></h1>
+
+			<p>HTML Goodies</p>
+
+		</footer>
+
+	</article>
+
+</body>
+
+ 
+
+</html>
